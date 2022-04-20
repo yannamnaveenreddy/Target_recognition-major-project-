@@ -8,7 +8,7 @@ Created on Sun Mar 17 10:48:58 2019
 #creating database
 import cv2, sys, numpy, os 
 datasets = 'datasets'  #All the faces data will be present this folder
-sub_data = 'krishna deva'     #These are sub data sets of folder, for my faces I've used my name
+sub_data = 'Target'     #These are sub data sets of folder, for my faces I've used my name
 
 path = os.path.join(datasets, sub_data)
 if not os.path.isdir(path):
